@@ -1,0 +1,20 @@
+# Entorno virtual
+.venv/
+
+# Variables de entorno
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Outputs
+outputs/logs/
+outputs/excel/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
