@@ -1,7 +1,4 @@
-# python-finanzas-trading
-Curso gratuito y público de Python para Finanzas y Trading Algorítmico, disponible en YouTube y Udemy. Aprende desde cero a usar Python para analizar datos financieros reales, consumir APIs, crear visualizaciones, dashboards, informes en Excel y dar tus primeros pasos en trading algorítmico.
-=======
-Python para Finanzas y Trading Algorítmico desde Cero
+# Python para Finanzas y Trading Algorítmico desde Cero
 
 Este repositorio contiene el código del curso Python para Finanzas y Trading Algorítmico desde Cero.
 Aprenderás paso a paso a usar Python para:
@@ -22,7 +19,7 @@ Construir prototipos de bots de trading y alertas
 
 El objetivo es que cualquier persona, incluso sin experiencia previa, pueda seguir el curso y ejecutar el código sin problemas.
 
-1️⃣ Requisitos previos
+## 1️⃣ Requisitos previos
 
 Antes de empezar necesitas tener instalado:
 
@@ -37,7 +34,7 @@ Para comprobar que todo está correcto:
 python --version
 git --version
 
-2️⃣ Clonar el repositorio
+## 2️⃣ Clonar el repositorio
 
 Abre una terminal (PowerShell en Windows o Terminal en Mac/Linux) y ejecuta:
 
@@ -48,7 +45,7 @@ Entra en la carpeta del proyecto:
 
 cd TU_REPO
 
-3️⃣ Crear entorno virtual (MUY IMPORTANTE)
+## 3️⃣ Crear entorno virtual (MUY IMPORTANTE)
 🔹 Windows (PowerShell)
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -60,7 +57,7 @@ Si ves el prefijo (.venv) en la terminal, todo va bien.
 python3 -m venv .venv
 source .venv/bin/activate
 
-4️⃣ Instalar librerías necesarias
+## 4️⃣ Instalar librerías necesarias
 
 Con el entorno virtual activado, ejecuta:
 
@@ -69,7 +66,7 @@ pip install -r requirements.txt
 
 Si todo va bien, verás cómo se instalan pandas, requests, matplotlib, etc.
 
-5️⃣ Configurar variables de entorno (API Keys)
+## 5️⃣ Configurar variables de entorno (API Keys)
 1. Crear el archivo .env
 Windows
 copy .env.example .env
@@ -89,7 +86,7 @@ TELEGRAM_CHAT_ID=tu_chat_id
 
 📌 Nunca subas este archivo a GitHub.
 
-6️⃣ Estructura del proyecto
+## 6️⃣ Estructura del proyecto
 data/
  └─ raw/                → CSV de ejemplo (datos históricos)
 outputs/
@@ -97,7 +94,7 @@ outputs/
 src/
  └─ lessons/            → Scripts del curso (por orden)
 
-7️⃣ Ejecutar los scripts (por orden del curso)
+## 7️⃣ Ejecutar los scripts (por orden del curso)
 
 ⚠️ Ejecuta siempre los scripts desde la raíz del proyecto.
 
@@ -119,7 +116,7 @@ python src/lessons/tradin_bot_script5.py
 🔹 Clase Extra – Generación de insights con IA (opcional)
 python src/lessons/insights_with_chatgpt.py
 
-8️⃣ Dónde se guardan los resultados
+## 8️⃣ Dónde se guardan los resultados
 
 📊 Archivos Excel → outputs/excel/
 
@@ -127,7 +124,7 @@ python src/lessons/insights_with_chatgpt.py
 
 📈 Gráficos y dashboards → se muestran en pantalla o se guardan automáticamente
 
-9️⃣ Errores comunes y soluciones rápidas
+## 9️⃣ Errores comunes y soluciones rápidas
 ❌ Error: ModuleNotFoundError
 
 👉 Asegúrate de haber activado el entorno virtual:
