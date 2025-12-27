@@ -3,19 +3,19 @@
 Este repositorio contiene el código del curso Python para Finanzas y Trading Algorítmico desde Cero.
 Aprenderás paso a paso a usar Python para:
 
-Extraer datos financieros desde APIs
+- Extraer datos financieros desde APIs
 
-Analizar datos con pandas y DataFrames
+- Analizar datos con pandas y DataFrames
 
-Crear métricas financieras
+- Crear métricas financieras
 
-Visualizar datos y dashboards
+- Visualizar datos y dashboards
 
-Generar informes en Excel
+- Generar informes en Excel
 
-Construir prototipos de bots de trading y alertas
+- Construir prototipos de bots de trading y alertas
 
-(Opcional) Generar insights con IA
+- (Opcional) Generar insights con IA
 
 El objetivo es que cualquier persona, incluso sin experiencia previa, pueda seguir el curso y ejecutar el código sin problemas.
 
